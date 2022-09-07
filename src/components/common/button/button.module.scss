@@ -1,0 +1,40 @@
+.button {
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+      border: 1px solid #000;
+}
+.button:disabled {
+      opacity: 0.5;
+      div {
+            color: black;
+      }
+}
+.button:focus {
+      outline: none;
+}
+
+.white {
+      border-color: #a2a2a2;
+      background-color: #ffffff;
+}
+.text {
+      font-size: 16px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+}
+
+.primary {
+      border-color: #36d2aa;
+      background-color: #36d2aa;
+}
+
+.danger {
+      border-color: #db3236;
+      background-color: #db3236;
+}
+.secondary {
+      border-color: #f53389;
+      background-color: #f53389;
+}
